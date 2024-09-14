@@ -11,7 +11,7 @@ export default function Sidebar({ children }) {
       <nav className="h-full flex flex-col bg-black border-r shadow-sm border-gray-600">
         <div className="p-4 pb-2 flex justify-between items-center">
           <img
-            src={"src/assets/Logo.svg"}
+            src={"/Logo.svg"}
             className={`overflow-hidden transition-all ${
               expanded ? "w-8" : "w-0"
             }`}
@@ -64,7 +64,7 @@ export function SidebarItem({ icon, text, active, alert }) {
         ${
           active
             ? "bg-gradient-to-tr from-gray-700 to-gray-600 text-gray-50"
-            : "hover:bg-gray-800 text-gray-400"
+            : "hover:bg-gray-800 text-gray-300"
         }
     `}
     >
