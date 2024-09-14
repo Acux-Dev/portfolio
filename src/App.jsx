@@ -1,20 +1,18 @@
-import { useState } from 'react'
-import './App.css'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home.jsx";
+import "./app.css";
 
 function App() {
-
   return (
-    <>
-      <div>
-        <h1>Acux</h1>
-        <p>Portfolio</p>
-        <p>Prueba despliegue en vercel</p>
+    <Router>
+      <div className="w-full">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
       </div>
-      <h1 className="text-3xl font-bold underline text-red-500">
-        Prueba Tailwind despliegue
-      </h1>
-    </>
-  )
+    </Router>
+  );
 }
 
-export default App
+export default App;

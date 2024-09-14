@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "lucide-react": "^0.441.0",
     "portfolio": "file:",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-pro-sidebar": "^1.1.0",
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
