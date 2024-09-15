@@ -1,0 +1,13 @@
+{
+  "sidebar": {
+    "start": "Inicio",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Acux",
+    "body": "Portfolio",
+    "text": "texto adicional"
+  }
+}

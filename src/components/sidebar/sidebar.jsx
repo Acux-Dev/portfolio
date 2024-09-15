@@ -7,7 +7,7 @@ export default function Sidebar({ children }) {
   const [expanded, setExpanded] = useState(false)
   
   return (
-    <aside className="h-screen">
+    <aside className="h-screen sticky top-0 hidden md:block">
       <nav className="h-full flex flex-col bg-black border-r shadow-sm border-gray-600">
         <div className="p-4 pb-2 flex justify-between items-center">
           <img
@@ -41,9 +41,9 @@ export default function Sidebar({ children }) {
               overflow-hidden transition-all ${expanded ? "w-52 ml-3" : "w-0"}
           `}
           >
-            <div className="leading-4">
-              <h4 className="font-semibold">Juan David Acuña Merchán</h4>
-              <span className="text-xs text-gray-400">juansup123@gmail.com</span>
+            <div className="leading-4 h-10">
+              <h4 className="font-semibold line-clamp-1">Juan David Acuña Merchán</h4>
+              <span className="text-xs text-gray-400 line-clamp-1">juansup123@gmail.com</span>
             </div>
           </div>
         </div>
