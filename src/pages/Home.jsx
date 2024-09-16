@@ -3,7 +3,7 @@ import { LayoutDashboard, StickyNote, Layers, UserRoundSearch, Settings } from "
 import Sidebar, { SidebarItem } from "../components/sidebar/sidebar.jsx";
 import { useTranslation } from 'react-i18next';
 import Card from "../components/card/Card.jsx";
-import SwiperComponent from "../components/swiper/swiper.jsx";
+import SwiperComponent from "../components/swiper/Swiper.jsx";
 
 function Home() {
   const { t, i18n } = useTranslation("global");
