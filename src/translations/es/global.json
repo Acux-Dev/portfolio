@@ -9,5 +9,22 @@
     "title": "Acux",
     "body": "Portfolio",
     "text": "texto adicional"
+  },
+  "Projects": {
+    "title": "Proyectos",
+    "list": {
+      "project_1": {
+        "title": "Arquitectura y acústica Javier Martínez",
+        "img": "https://via.placeholder.com/200",
+        "description": "Pagina que experiencia profesional del ingeniero Javier Martínez en arquitectura y acústica.",
+        "tags": ["#React", "#Django"]
+      },
+      "project_2": {
+        "title": "Placeholder",
+        "img": "https://via.placeholder.com/200",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+        "tags": ["#React", "#Django"]
+      }
+    }
   }
 }

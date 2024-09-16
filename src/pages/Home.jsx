@@ -3,6 +3,7 @@ import { LayoutDashboard, StickyNote, Layers, UserRoundSearch, Settings } from "
 import Sidebar, { SidebarItem } from "../components/sidebar/sidebar.jsx";
 import { useTranslation } from 'react-i18next';
 import Card from "../components/card/Card.jsx";
+import SwiperComponent from "../components/swiper/swiper.jsx";
 
 function Home() {
   const { t, i18n } = useTranslation("global");
@@ -30,14 +31,27 @@ function Home() {
               Es
             </button>
           </div>
-          <div className="">
+          <div className="w-full">
             <h1 className="text-3xl font-bold text-white">{t("home.title")}</h1>
             <p>{t("home.body")}</p>
             <p>{t("home.text")}</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-10">
-              <Card/>
-              <Card/>
-              <Card/>
+            {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-10">
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+            </div> */}
+          </div>
+          
+          <h1 className="text-3xl font-bold text-white">{t("Projects.title")}</h1>
+          {/* maneja el centrado del contenedor */}
+          <div className="flex justify-center">
+            {/* maneja el tamaño del contenedor */}
+            <div className='w-full md:w-5/6'>
+              {/* contenedor */}
+              <div className="h-[28rem] lg:h-96 w-full md:container place-content-center py-5 pb-20 px-5 lg:px-20">
+                <SwiperComponent />
+              </div>  
             </div>
           </div>
         </div>
@@ -47,5 +61,3 @@ function Home() {
 }
 
 export default Home
-
-

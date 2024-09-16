@@ -1,4 +1,4 @@
-import { MoreVertical, ChevronLast, ChevronFirst } from "lucide-react"
+import { ChevronLast, ChevronFirst } from "lucide-react"
 import { useContext, createContext, useState } from "react"
 
 const SidebarContext = createContext()
