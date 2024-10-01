@@ -23,7 +23,7 @@
         "title": "Placeholder",
         "img": "https://via.placeholder.com/200",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-        "tags": ["#React", "#Django"]
+        "tags": ["#Angular", "#NodeJS"]
       }
     }
   }

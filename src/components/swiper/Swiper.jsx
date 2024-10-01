@@ -55,7 +55,7 @@ function SwiperComponent() {
           // console.log('activeSlideIndex', activeSlideIndex);
           setActiveSlideIndex(swiperInstance.realIndex);
         }} // Use realIndex for looped slides
-        className="bg-black rounded-lg border-4 border-gray-500 hover:border-gray-300 duration-100 h-full"
+        className="bg-black rounded-lg border-4 border-gray-500 hover:border-gray-300 duration-200 h-full"
       >
         {Object.keys(projects).map((key) => {
           const { title, img, description, tags } = projects[key];
@@ -97,7 +97,7 @@ function SwiperComponent() {
       </Swiper>
 
       <div className="w-full mt-4 flex justify-between items-center">
-        <div className="bg-black border-4 border-gray-500 hover:border-gray-300 rounded-md duration-100">
+        <div className="bg-black border-4 border-gray-500 hover:border-gray-300 rounded-md duration-200">
           <button onClick={handlePrevSlide} className="prev-slide text-white p-2 rounded-md">
             <svg width="20px" height="20px" viewBox="0 0 1024 1024" className="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M768 903.232l-50.432 56.768L256 512l461.568-448 50.432 56.768L364.928 512z" fill="#ffffff" /></svg>
           </button>
